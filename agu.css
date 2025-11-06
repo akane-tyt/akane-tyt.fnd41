@@ -1,0 +1,48 @@
+.container {
+    width: 1500px;
+    height: auto;
+    background-color: aquamarine;
+    /* background-image: url(".../Desktop/JavaScript/header2.png"); */
+    align-items: right; /* 縦方向中央揃え */
+    margin-left: 1%;
+}
+
+
+/* 全体のレイアウト */
+/* .container {
+    display: flex;
+    height: 100vh;
+} */
+
+/* 左側のエリア */
+.sidebar {
+    width: 20%; /* 横幅の1/4 */
+    height: 1800px;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around; /* 横に並べて間隔を均等に
+    /* align-items: center; /* 縦方向中央揃え */
+    /* padding: 10px; */
+}
+
+/* ボックスのスタイル */
+.box {
+    display: inline-block;
+    background-color: lightyellow;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #45a049;
+}
+
+/* 右側のメインコンテンツ */
+.main-content {
+    width: 75%;
+    padding: 20px;
+}
